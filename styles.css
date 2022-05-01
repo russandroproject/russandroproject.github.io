@@ -1,5 +1,6 @@
 
 body {
+    max-width: 1280px;
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -10,7 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgb(87, 141, 187);
-    background-image: url(./img/pokemon_left.png);
+    background-image: url(images/pokemon_left.png);
     background-repeat: no-repeat;
     background-position: 85%;
     background-size: 1500px;
@@ -272,5 +273,4 @@ a:hover {
     justify-content: center;
     color: black;
     font-family: Impact;
-    
-}
+}   
