@@ -8,9 +8,9 @@ body {
 
 .header-container {
     height: 100vh;
-    width: 100vw;
+    width: 98.3vw;
     background-color: rgb(87, 141, 187);
-    background-image: url(./img/pokemon_left.png);
+    background-image: url(images/pokemon_left.png);
     background-repeat: no-repeat;
     background-position: 85%;
     background-size: 1500px;
@@ -26,7 +26,7 @@ body {
 h2 {
     font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
 }
 
 .social-web {
@@ -46,8 +46,8 @@ h2 {
     transition: .5s ease-in-out;
 }
 
-a:hover {
-    background-color: #f2c304;
+.social-web a:hover {
+    background-color: #ffcc00;
 }
 
 .checkbox-container {
@@ -71,7 +71,7 @@ a:hover {
 
 .checkbox .trace {
     width: 50px;
-    height: 3px;
+    height: 4px;
     background-color: #111111;
     position: absolute;
     border-radius: 50px;
@@ -205,7 +205,7 @@ a:hover {
 }
 
 .card-text {
-    width: 40%;
+    width: 60%;
     letter-spacing: 2px;
     color: rgb(10, 4, 4)
 }
@@ -265,12 +265,12 @@ a:hover {
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: rgb(102, 166, 222);
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
-    font-family: Impact;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
 }

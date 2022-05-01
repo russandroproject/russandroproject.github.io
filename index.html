@@ -30,7 +30,6 @@
                             <li>
                                 <a href="#">Sobre o desenvolvedor</a>
                             </li>
-
                         </ul>
                     </nav>
 
@@ -38,6 +37,11 @@
 
             </div>
 
+        </div>
+        <div class="logo">
+            <img src="images/pokemon_logo.png" alt="logo"
+            width="370"
+            style="background-position: 0%;">
         </div>
         <h2>Seriado Animado Japonês</h2>
         <div class="social-web">
@@ -49,12 +53,13 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-wrapper">
-                    <h2 class="homepage">Histórico</h2>
+                    <h2 class="homepage">História</h2>
                     <p>Descubra as origens!</p>
                 </div>
             </div>
             <div class="card-text">
-                Em um mundo de fantasias e mistérios, descubra a origem de tudo!
+                Até onde se sabe, o criador do Mundo Pokémon é o lendário Arceus. Foi ele quem criou Dialga, Palkia e Giratina para serem os guardiões do tempo, espaço e caos. Após isso, Arceus deu vida à Azelf, Uxie e Mesprit para que eles criassem a força de vontade, conhecimento e emoções, respectivamente.
+                Além disso, existem várias cavernas e cidades antigas que revelam que os Pokémon ajudaram a formar à civilização humana. O exemplo mais famoso são as Ruínas de Alph, que dão a entender que os humanos desenvolveram suas linguagens com a ajuda das mais variadas formas dos Unowns.
             </div>
         </div>
         <div class="card-container">
@@ -65,94 +70,53 @@
                 </div>
             </div>
             <div class="card-text">
-                A ordem cronológica dos games ao longo desses anos!
+                Red, Green e Blue(1996), Red, Blue e Yellow(1998), Gold e Silver(1999), Crystal(2000), Ruby e Sapphire(2002), FireRed, LeafGreen e
+                Emerald(2004), Diamond e Pearl(2006), Platinum(2008), HeartGold e SoulSilver(2009), Black e White(2010), Black 2 e White 2(2012), X & Y(2013), Omega Ruby e Alpha Sapphire(2014), Sun & Moon(2016), Ultra Sun e Ultra Moon(2017), Let's Go, Pikachu! e Let's Go, Eevee!(2018), Sword e Shield(2019), Briliant Diamond e Shining Pearl(2021) e Legends: Arceus(2022)
             </div>
         </div>
         <div class="card-container">
             <div class="card">
                 <div class="card-wrapper">
-                    <h2 class="homepage">Vídeos</h2>
+                    <h2 class="homepage">Anime</h2>
                     <p>Animações</p>
                 </div>
             </div>
             <div class="card-text">
-                Conheça as diversas animações existentes de pokemon!
+                <ul>
+                    <li>
+                        Pokémon: O Início/Ouro e Prata "Temporadas 1-5" (série original)
+                    </li>
+                    <li>
+                        Pokémon: A Série Rubi e Safira "Temporadas 6-9"
+                    </li>
+                    <li>
+                        Pokémon: A Série Diamante e Pérola "Temporadas 10- 13"
+                    </li>
+                    <li>
+                        Pokémon: A Série Preto e Branco "Temporadas 14-16"
+                    </li>
+                    <li>
+                        Pokémon: A Série XY "Temporadas 17-19"
+                    </li>
+                    <li>
+                        Pokémon: A Série Sol e Lua "Temporadas 20-22"
+                    </li>
+                    <li>
+                        Pokémon Jornadas: A Série "Temporadas 23-"
+                    </li>
+                </ul>
             </div>
+            
         </div>
-        <div><p>Click the button to get your coordinates.</p>
 
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-        </div>
-                <div><p>Click the button to get your coordinates.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-        </div>
-                <div><p>Click the button to get your coordinates.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
+        <h2 style="margin: 50px; font-size: 25px;"> Veja também:</h2>
+        <div class="videos">
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/ucxKWUtqQnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 50px"></iframe>
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/bmSjecCmD7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 50px"></iframe>
         </div>
     </main>
     <footer class="footer">
         Criado por futura dupla inovadora! ~ Rick e Alec
     </footer>
-
 </body>
-
 </html>
