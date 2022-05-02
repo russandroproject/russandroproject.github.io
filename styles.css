@@ -9,12 +9,12 @@ body {
 
 .header-container {
     height: 100vh;
-    width: 98.3vw;
+    width: 100vw;
     background-color: rgb(87, 141, 187);
     background-image: url(images/pokemon_left.png);
     background-repeat: no-repeat;
     background-position: 85%;
-    background-size: 1500px;
+    background-size: 2050px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,6 @@ body {
     padding: 0 112px;
     position: relative;
 }
-
 h2 {
     font-size: 15px;
     text-transform: uppercase;
@@ -61,8 +60,8 @@ h2 {
     height: 50px;
     width: 50px;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 20px;
+    top: 10px;
     display: flex;
     justify-content: center;
     cursor: pointer;

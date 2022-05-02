@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon|Wiki-Fandom</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <style>
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    </style>
 </head>
-<div class="logo" id="logo" style="background-color: rgb(36, 36, 110); width: 100vw; height: 100vh;">
+<div class="intro" id="intro" style="background-color: rgb(36, 36, 110); width: 100vw; height: 100vh;">
     <img src="images/greatball.gif" alt=""
     style="position: absolute; width: 100vw; height: 100%; object-fit: cover;"></div>
 <div class="hide" id="hide" style="display: none;">
@@ -15,11 +25,16 @@
         setTimeout(hide, 1600)
         function hide() {
             document.getElementById('hide').style.display="block";
-            document.getElementById('logo').style.display="none";
+            document.getElementById('intro').style.display="none";
         }
     </script>
 <body>
     <header class="header-container">
+        <button onclick="document.location='login.html'" style="left: 20px; top: 20px; position: absolute; border-radius: 10%; width: 100px; height: 30px;">Entrar</button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="rgb(24,50,137)" class="bi bi-chevron-double-down" viewBox="0 0 16 16" style="left: 48%; top: 88%; position: absolute; stroke-width:1px;stroke:rgb(0, 31, 133)">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg>
         <div class="header">
             <div class="checkbox-container">
                 <div class="checkbox-wrapper">
@@ -51,8 +66,8 @@
         </div>
         <div class="logo">
             <img src="images/pokemon_logo.png" alt="logo"
-            width="370"
-            style="background-position: 0%;">
+            width="600"
+            style="position: absolute; top: 22%; left: 5px;">
         </div>
         <h2>Seriado Animado Japonês</h2>
         <div class="social-web">
@@ -117,6 +132,13 @@
                     </li>
                 </ul>
             </div>
+            <div class="images" align="center"style="position: absolute; right: 200px; top: 100%;">
+                <img src="images/arceus.webp" alt="Arceus" style="margin: 50px; height: 250px; object-fit: fill; margin-top: 80px;">
+                <br>
+                <img src="images/game.webp" alt="Jogo" style="margin: 50px;  height: 250px; object-fit: fill; margin-top: 70px;">
+                <br>
+                <img src="images/anime.webp" alt="Anime" style="margin: 50px;  height: 270px; object-fit: fill; margin-top: 60px;">
+            </div>
             
         </div>
 
@@ -126,9 +148,10 @@
             <iframe width="400" height="215" src="https://www.youtube.com/embed/bmSjecCmD7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 50px"></iframe>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" style="width: 100vw;">
         Criado por futura dupla inovadora! ~ Rick e Alec
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </div>
